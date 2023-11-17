@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .orbit-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(images/guy-2557251_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .orbiting-element {
+    position: relative;
+    /* width: 20px;
+    height: 20px; */
+    /* background-color: #e74c3c; */
+    border-radius: 50%;
+  }
+
+  .planet1 { 
+    transform: rotate(-35deg) translateX(250px) rotate(-30deg);
+    background-color: lightskyblue;
+    width: 90px;
+    height: 9vh;
+    margin-top: -30px;
+  }
+
+  .planet2 { 
+    transform: rotate(150deg) translateX(200px) rotate(-120deg);
+    background-color: lightgray;
+    width: 70px;
+    height: 7vh;
+  }
+
+  .planet3 { 
+    transform: rotate(240deg) translateX(200px) rotate(-240deg);
+    background-color: lightslategray;
+    width: 70px;
+    height: 7vh;
+  }
+
+  .planet4{
+    transform: rotate(2deg) translateX(250px) rotate(-80deg);
+    background-color: lightseagreen;
+    width: 70px;
+    height: 7vh;
+  }
+
+  .planet5{
+    transform: rotate(40deg) translateX(100px) rotate(-80deg);
+    background-color: lightcoral;
+    width: 80px;
+    height: 8vh;
+  }
+
+  .planet6{
+    transform: rotate(-50deg) translateX(430px) rotate(-80deg);
+    background-color: lightgreen;
+    width: 60px;
+    height: 6vh;
+  }
+
+  .planet7{
+    transform: rotate(275deg) translateX(570px) rotate(-80deg);
+    background-color: black;
+    width: 47px;
+    height: 5vh;
+  }
+
+  .planet8{
+    transform: rotate(-160deg) translateX(100px) rotate(-80deg);
+    background-image: url(images/cheerful-attractive-young-woman-with-backpack-notebooks-standing-smiling-park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 5vh;
+  }
